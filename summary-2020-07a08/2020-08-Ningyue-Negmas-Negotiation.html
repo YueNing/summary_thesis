@@ -13157,6 +13157,24 @@ And some papers about multi Agents, reinfocement learning, machine learning.</p>
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install <span class="nv">negmas</span><span class="o">==</span><span class="m">0</span>.7.0
+<span class="o">!</span>pip install <span class="nv">gym</span><span class="o">==</span><span class="m">0</span>.17.2
+<span class="c1"># Before install stable_baselines Need to install libopenmpi-dev: command &#39;sudo apt install libopenmpi-dev&#39;</span>
+<span class="o">!</span>pip install <span class="nv">mpi4py</span><span class="o">==</span><span class="m">3</span>.0.3
+<span class="o">!</span>pip install <span class="nv">stable_baselines</span><span class="o">==</span><span class="m">2</span>.10.0
+<span class="o">!</span>pip install <span class="nv">tensorflow</span><span class="o">==</span><span class="m">1</span>.15.3
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13525,7 +13543,7 @@ And some papers about multi Agents, reinfocement learning, machine learning.</p>
 <span class="sd">        &#39;&#39;&#39;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">state</span><span class="o">.</span><span class="n">relative_time</span>
     
-    <span class="k">def</span> <span class="nf">get_state</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span><span class="n">realize</span>
+    <span class="k">def</span> <span class="nf">get_state</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="c1"># import pdb;pdb.set_trace()</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">state</span>
     
