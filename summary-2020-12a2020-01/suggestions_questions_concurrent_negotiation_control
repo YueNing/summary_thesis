@@ -1,0 +1,21 @@
+Improve concurrent negotiation control
+
+achieve the preset target
+1. [SyncController] Will try to get the best deal which is defined as being nearest to the agent needs and with lowest price, just consider the current step
+
+2. try to get the maximum profitability at the end of episode.
+which points are needed to be considered at the current step?
+	1. counter_all, observe states of all negotiation partner, decide the Response together
+	2. best_proposal, how to decide the best proposal for the given negotiation
+
+
+1. numbers of av agents
+2. position
+numbers of seller agents 
+
+facotr
+price change dynamically, price before simualtion, during training 
+price of production
+
+time, quantity, what other contract.
+
